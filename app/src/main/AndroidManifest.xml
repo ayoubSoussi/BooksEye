@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.bookseyes">
+    package="org.mobile.bookseyes">
 
     <uses-feature android:name="android.hardware.camera" />
 
@@ -12,14 +12,14 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".CameraActivity"></activity>
-        <activity android:name=".CameraParamsActivity" />
-        <activity android:name=".EditProverbeActivity" />
-        <activity android:name=".AddProverbeActivity" />
-        <activity android:name=".ProverbeActivity" />
-        <activity android:name=".ProverbesListeActivity" />
-        <activity android:name=".AddBookActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name="org.mobile.bookseyes.CameraActivity"></activity>
+        <activity android:name="org.mobile.bookseyes.CameraParamsActivity" />
+        <activity android:name="org.mobile.bookseyes.EditProverbeActivity" />
+        <activity android:name="org.mobile.bookseyes.AddProverbeActivity" />
+        <activity android:name="org.mobile.bookseyes.ProverbeActivity" />
+        <activity android:name="org.mobile.bookseyes.ProverbesListeActivity" />
+        <activity android:name="org.mobile.bookseyes.AddBookActivity" />
+        <activity android:name="org.mobile.bookseyes.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
